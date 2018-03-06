@@ -3,13 +3,7 @@ ssh_authorized_keys:
   - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCil1fxCndxnYIFkewPlbg3rnADSKmwstpvLuXT8O0X6h5aw5kip79dorIGZiR7Fg/FzO0Cz8ryafu3O/rmXC19BdgXqV+cLDcOElpj33KADdjN0J9z9XH2krMUtxbjD/2mAUtpld0JmWvps1nkqmLfva7lekEZdP+IjzxVRaAwVLGJNaKCMBGJiABDQHzzjcGBOVh8ftkJyJwJ4CBz9URmE65/ffgiC0epJbPYF/4bs3HpBZt7vxn30TjF9HkvocJmA43KNHKGTeOlMdBOXPfVJZ7i/mjrIeTH9xil4yaN1D2tum7qIEUfh0+m2pYLprihp+d+WijtS8zBh/esdDtj codeanywhere-ssh-key
 rancher:
   network:
-    interfaces:
-      eth1:
-        address: 192.168.56.101/24
-        gateway: 192.168.56.1
-        mtu: 1500
-        dhcp: false
     dns:
       nameservers:
-      - 8.8.8.8
-      - 8.8.4.4
+        - 8.8.8.8
+        - 8.8.4.4
